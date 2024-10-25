@@ -7,3 +7,6 @@
 [submodule "esi-tagarela"]
 	path = esi-tagarela
 	url = https://github.com/DuPorangaba/esi-tagarela.git
+[submodule "esi-gastos-abertos"]
+	path = esi-gastos-abertos
+	url = https://github.com/DuPorangaba/esi-gastos-abertos
