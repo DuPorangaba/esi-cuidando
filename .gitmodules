@@ -10,3 +10,6 @@
 [submodule "esi-gastos-abertos"]
 	path = esi-gastos-abertos
 	url = https://github.com/DuPorangaba/esi-gastos-abertos
+[submodule "esi-esicLivre"]
+	path = esi-esicLivre
+	url = https://github.com/DuPorangaba/esi-esicLivre.git
