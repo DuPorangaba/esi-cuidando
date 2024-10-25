@@ -1,3 +1,6 @@
 [submodule "esi-website"]
 	path = esi-website
 	url = https://github.com/DuPorangaba/esi-website.git
+[submodule "esi-viralata"]
+	path = esi-viralata
+	url = https://github.com/DuPorangaba/esi-viralata.git
