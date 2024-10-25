@@ -4,3 +4,6 @@
 [submodule "esi-viralata"]
 	path = esi-viralata
 	url = https://github.com/DuPorangaba/esi-viralata.git
+[submodule "esi-tagarela"]
+	path = esi-tagarela
+	url = https://github.com/DuPorangaba/esi-tagarela.git
