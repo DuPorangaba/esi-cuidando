@@ -23,9 +23,13 @@ Com o objetivo de unirmos todos os microserviços em um único repositório, opt
 
 # CodeClimate
 **esi-website** [![Maintainability](https://api.codeclimate.com/v1/badges/61c313545307b69a204e/maintainability)](https://codeclimate.com/github/DuPorangaba/esi-website/maintainability) 
+
 **esi-gastos-abertos** [![Maintainability](https://api.codeclimate.com/v1/badges/6420abd78c86c396192c/maintainability)](https://codeclimate.com/github/DuPorangaba/esi-gastos-abertos/maintainability)
+
 **esi-vira-lata** [![Maintainability](https://api.codeclimate.com/v1/badges/43f2e1c9caf3cceb2e8a/maintainability)](https://codeclimate.com/github/DuPorangaba/esi-viralata/maintainability)
+
 **esi-tagarela** [![Maintainability](https://api.codeclimate.com/v1/badges/40d0692d3126172db025/maintainability)](https://codeclimate.com/github/DuPorangaba/esi-tagarela/maintainability)
+
 **esi-esicLivre** [![Maintainability](https://api.codeclimate.com/v1/badges/09d66297e36628b90633/maintainability)](https://codeclimate.com/github/DuPorangaba/esi-esicLivre/maintainability)
 
 # Instruções
