@@ -9,3 +9,7 @@ Funcionalidade: Visualizar detalhes de uma distribuição de recursos
         Então deve visualizar o nome do programa com o título "Requalificação e Promoção da Ocupação dos Espaços Públicos"
         E deve visualizar a descrição da despesa com o título "Requalificação de Sede Social da Associação Comunitária do Jardim das Oliveiras, CNPJ 46.306.528/0001-94, localizada na Av. Dr. Almiro Leal da Costa, 456 - Jardim das Oliveiras, CEP 08122-260."
         E deve visualizar a seção de detalhes da despesa
+    
+    Cenário: Exibir tabela de distribuição de recursos anual
+        Quando acessar a página de distribuição de recursos anual
+        Então deve visualizar a tabela de distribuição de recursos
