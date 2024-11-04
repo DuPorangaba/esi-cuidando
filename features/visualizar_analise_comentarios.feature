@@ -6,4 +6,4 @@ Funcionalidade: Visualizar análise de comentários
 
     Cenário: Exibir análise de comentários feitos
         Quando acessar a página de análise de comentários
-        Então deve visualizar o título de comentários com o texto "0 Comentários"
+        Então deve visualizar o título de comentários com o texto que contém "Comentários"

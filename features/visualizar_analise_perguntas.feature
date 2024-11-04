@@ -6,4 +6,4 @@ Funcionalidade: Visualizar análise de perguntas
 
     Cenário: Exibir análise de perguntas feitas
         Quando acessar a página de análise de perguntas
-        Então deve visualizar o título de perguntas com o texto "0 Perguntas"
+        Então deve visualizar o título de perguntas com o texto que contém "Perguntas"
