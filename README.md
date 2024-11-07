@@ -1,3 +1,5 @@
+![example workflow](https://github.com/github/docs/actions/workflows/ruby.yml/badge.svg)
+
 # Sobre
 Projeto desenvolvido na disciplina de Engenharia de Sistemas de Informação I. 
 
