@@ -20,9 +20,6 @@ jobs:
   test:
 
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: /home/runner/work/esi-cuidando/esi-cuidando/tests
     strategy:
       matrix:
         ruby-version: ['2.6', '2.7', '3.0']
@@ -39,4 +36,6 @@ jobs:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Run tests
       run: |
+        cd tests
+        bundle install
         bundle exec cucumber
