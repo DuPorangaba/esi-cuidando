@@ -56,6 +56,8 @@ Para rodar os testes, é necessário ter o Ruby instalado ([Ruby Download](https
 2. Faça as mudanças necessárias
 3. Dê commit e push nas novas mudanças
 4. Volte para o diretório principal, nesse caso o diretório esi-cuidando
-5. Se utilizar `git status` será possível ver que o submódulo foi modificado
-6. Dê commit e push no diretório principal
+5. git submodule update --remote <path to submodule>
+6. Se utilizar `git status` será possível ver que o submódulo foi modificado
+7. Dê commit e push no diretório principal
+
 Mais informações: [Git Submodules Basic Explanation](https://gist.github.com/gitaarik/8735255)
