@@ -41,9 +41,17 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby-version }}
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    
+    - name: Install specific Bundler version
+      run: gem install bundler:2.5.22
+
+    - name: Update dependencies
+      run: |
+        cd tests
+        bundle update ffi
+    
     - name: Run tests
       run: |
         cd tests
-        gem install bundler:2.5.22
         bundle install
         bundle exec cucumber
