@@ -34,9 +34,26 @@ Com o objetivo de unirmos todos os microserviços em um único repositório, opt
 
 # Instruções
 
-### Clonando o Repositório
+## Clonando o Repositório
 ```
 git clone --recurse-submodules https://github.com/DuPorangaba/esi-cuidando.git
 ```
 
-### Rodar Testes
+## Rodar Testes
+Para rodar os testes, é necessário ter o Ruby instalado ([Ruby Download](https://www.ruby-lang.org/en/documentation/installation/)) e o bundler `gem install bunder`
+
+### Testes de Aceitação
+1. Com o repositório clonado, entre no diretório dos tests: `cd tests`
+2. Instale as dependências necessárias para rodar os testes: `bundle install`
+3. Rode os testes: `cucumber`
+
+### Testes de Caracterização
+
+## Mudanças nos Submódulos
+1. Entre no arquivo do submódulo, `cd [path_to_sumodule]`
+2. Faça as mudanças necessárias
+3. Dê commit e push nas novas mudanças
+4. Volte para o diretório principal, nesse caso o diretório esi-cuidando
+5. Se utilizar `git status` será possível ver que o submódulo foi modificado
+6. Dê commit e push no diretório principal
+Mais informações: [Git Submodules Basic Explanation](https://gist.github.com/gitaarik/8735255)
