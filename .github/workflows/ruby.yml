@@ -52,7 +52,6 @@ jobs:
     
     - name: Run tests
       run: |
-        ls
         cd tests
         bundle install
         bundle exec cucumber
