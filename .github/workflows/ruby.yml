@@ -28,8 +28,8 @@ jobs:
     - uses: actions/checkout@v4
     - name: Set up Test Folder
       run: |
+        cd ./tests
         pwd
-        cd tests
     - name: Set up Ruby
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
