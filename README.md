@@ -38,3 +38,5 @@ Com o objetivo de unirmos todos os microserviços em um único repositório, opt
 ```
 git clone --recurse-submodules https://github.com/DuPorangaba/esi-cuidando.git
 ```
+
+### Rodar Testes
