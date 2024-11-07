@@ -29,7 +29,6 @@ jobs:
 
     - name: Install Chrome dependencies
       run: |
-        ls
         sudo apt-get update
         sudo apt-get install -y libappindicator3-1 fonts-liberation
         sudo apt-get install -y chromium-browser
@@ -53,6 +52,7 @@ jobs:
     
     - name: Run tests
       run: |
+        ls
         cd tests
         bundle install
         bundle exec cucumber
