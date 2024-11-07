@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./tests
+        working-directory: /home/runner/work/esi-cuidando/esi-cuidando/tests
     strategy:
       matrix:
         ruby-version: ['2.6', '2.7', '3.0']
