@@ -4,5 +4,5 @@ require 'rspec/expectations'
 World(RSpec::Matchers)
 
 Capybara.configure do |config|
-  config.default_driver = :selenium_chrome_headless
+  config.default_driver = :selenium_chrome
 end
