@@ -1,4 +1,4 @@
-![Github Actions badge](https://github.com/DuPorangaba/esi-cuidando/actions/workflows/ruby.yml/badge.svg)
+![Github Actions badge](https://github.com/DuPorangaba/esi-cuidando/actions/workflows/ruby.yml/badge.svg?cache-control=no-cache)
 
 # Sobre
 Projeto desenvolvido na disciplina de Engenharia de Sistemas de Informação I. 
