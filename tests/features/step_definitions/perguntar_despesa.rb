@@ -7,7 +7,7 @@ Dado('que o usuário consiga acessar o modal O que deseja perguntar') do
   
   Quando('o usuário escolher o órgão como {string}') do |string|
     page.find('.modal-body').find('button.bg-transparent').click
-    orgao_button = wait.until { page.find("li[data-key='#{string}']") }
+    orgao_button = page.find("li[data-key='#{string}']", wait: 10)
     orgao_button.click
   end
 
