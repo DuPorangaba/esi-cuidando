@@ -7,7 +7,8 @@ Dado('que o usuário consiga acessar o modal O que deseja perguntar') do
   
   Quando('o usuário escolher o órgão como {string}') do |string|
     page.find('.modal-body').find('button.bg-transparent').click
-    page.find("li[data-key='#{string}']", wait: 5).click
+    
+    page.find("li[data-key='#{string}']"5).click
   end
 
   Quando('perguntar {string}') do |string|
