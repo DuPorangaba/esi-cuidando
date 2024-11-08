@@ -6,8 +6,11 @@ Dado('que o usuário consiga acessar o modal O que deseja perguntar') do
   end
   
   Quando('o usuário escolher o órgão como {string}') do |string|
-    page.find('.modal-body').find('button.bg-transparent').click
-    orgao_button = page.find("li[role='option'][data-key='#{string}']", :visible => false)
+    list = page.find('.modal-body').find('button.bg-transparent').click
+    within(list) do
+      orgao_button = page.find("li[role='option'][data-key='#{string}']", :visible => false).click
+    end
+    
   end
 
   Quando('perguntar {string}') do |string|
