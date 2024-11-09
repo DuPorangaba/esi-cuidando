@@ -1,4 +1,4 @@
-![Github Actions badge](https://github.com/DuPorangaba/esi-cuidando/actions/workflows/ruby.yml/badge.svg)
+![Github Actions badge](https://github.com/DuPorangaba/esi-cuidando/actions/workflows/ruby.yml/badge.svg?cache-control=no-cache)
 
 # Sobre
 Projeto desenvolvido na disciplina de Engenharia de Sistemas de Informação I. 
@@ -50,6 +50,7 @@ Para rodar os testes, é necessário ter o Ruby instalado ([Ruby Download](https
 3. Rode os testes: `cucumber`
 
 ### Testes de Caracterização
+Os testes de caracterização estão dentro do repositório de cada microserviço.
 
 ## Mudanças nos Submódulos
 1. Entre no arquivo do submódulo, `cd [path_to_sumodule]`

@@ -7,13 +7,13 @@ Quando('acessar a página de distribuição de recursos anual') do
 end
 
 Então('deve visualizar o nome do programa com o título {string}') do |titulo_programa_esperado|
-    programa = find('.c-despesa-main__title').text
-    expect(programa).to eq(titulo_programa_esperado)
+    programa = find('.c-despesa-main__title')
+    expect(programa).to have_content(titulo_programa_esperado)
 end
 
 Então('deve visualizar a descrição da despesa com o título {string}') do |titulo_despesa_esperado|
     despesa = find('.c-despesa-main__subtitle').text
-    expect(despesa).to eq(titulo_despesa_esperado)
+    expect(despesa).to have_content(titulo_despesa_esperado)
 end
 
 Então('deve visualizar a seção de detalhes da despesa') do
